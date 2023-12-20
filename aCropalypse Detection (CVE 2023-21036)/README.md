@@ -1,3 +1,5 @@
+#DISCLAIMER: I Created, acrop, acropalypse_detection.py was copied from https://github.com/infobyte/CVE-2023-21036, this will tell you if the files are vulnerable or not.
+
 Acropalypse.py will do a few things:
 1. Search the specified directory for html files
 2. Parse every image (jpg, png, jpeg, gif) out of the html files within the specified directory
