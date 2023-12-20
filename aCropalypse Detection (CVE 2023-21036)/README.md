@@ -1,4 +1,4 @@
-### DISCLAIMER: I Created Acropalypse_html_parser.py; acropalypse_detection.py was copied from https://github.com/infobyte/CVE-2023-21036.
+## DISCLAIMER: I Created Acropalypse_html_parser.py; acropalypse_detection.py was copied from https://github.com/infobyte/CVE-2023-21036.
 
 The combo of these 2 scripts are to 
 
