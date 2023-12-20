@@ -1,4 +1,12 @@
-#DISCLAIMER: I Created, acrop, acropalypse_detection.py was copied from https://github.com/infobyte/CVE-2023-21036, this will tell you if the files are vulnerable or not.
+### DISCLAIMER: I Created Acropalypse_html_parser.py; acropalypse_detection.py was copied from https://github.com/infobyte/CVE-2023-21036.
+
+The combo of these 2 scripts are to 
+
+1. Parse out images from HTML files. 
+2. Identify any images that are susceptible to Acropalyspe.
+
+Our use case was to review our employee/product handbooks and several other guides hosted on a online wiki.  I downloaded the html files from the wiki into 1 directory and used this script to determine our exposure.  Any images that are susceptible should be replaced incase production data was ysed in the screenshots.  
+   
 
 Acropalypse.py will do a few things:
 1. Search the specified directory for html files
@@ -8,7 +16,7 @@ Acropalypse.py will do a few things:
 Requires that you:
 
  - Have the html files downloaded locally all under 1 directory
- - Update the variables at the end of the script (html_folder and destination_folder).  These are highlighed by edits within the script.
+ - Update the variables at the end of the script (html_folder and destination_folder).  These are highlighed by comments within the script.
  
 
 acropalypse_detection.py was copied from https://github.com/infobyte/CVE-2023-21036, this will tell you if the files are vulnerable or not.  See the link for more details. 
