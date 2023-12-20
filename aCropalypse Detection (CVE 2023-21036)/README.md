@@ -16,7 +16,9 @@ Acropalypse_html_parser.py will do a few things:
 - Search the specified directory for html files.
 - Parse every image (jpg, png, jpeg, gif) out of the html files within the specified directory.
 - Save these image files to a new specified directory.
-   <br> 
+   <br>
+  <br>
+  <br>
 Requires that you:
 
 - Have the html files downloaded locally all under 1 directory.
