@@ -1,5 +1,5 @@
 # Script to detect Acropalyspe (CVE-2023-21036)
-# This will assume you have the html files downloaded directly 
+# This will assume you have the html files downloaded locally in the current working directory
 
 
 import os
