@@ -7,7 +7,6 @@
 #           - https://security.microsoft.com/exposure-recommendations?recommendationId=mdo_blockmailforward
 #
 # Author: Seger Steele
-#
 # Usage: powershell -ExecutionPolicy Bypass -File DisableMailForwarding.ps1
 #
 # Notes: This script requires the Exchange Online PowerShell module.
